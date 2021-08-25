@@ -15,7 +15,7 @@ select * from cidades;
 INSERT INTO empresas_unidades
     (empresa_id, cidade_id, sede)
 VALUES
-     (1, 4, 1),
-     (1, 5, 0),
-     (2, 4, 1),
-     (2, 5, 0);
+     (1, 5, 1),
+     (1, 6, 0),
+     (2, 5, 1),
+     (2, 6, 0);
