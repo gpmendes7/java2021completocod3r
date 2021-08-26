@@ -19,11 +19,14 @@ public class NovoUsuario {
 		//Usuario novoUsuario = new Usuario("Carlos", "carlos@lanche.com.br");
 		//Usuario novoUsuario = new Usuario("Djalma", "djalma@lanche.com.br");
 		//Usuario novoUsuario = new Usuario("Lulu", "lulu@lanche.com.br");
-		Usuario novoUsuario = new Usuario("Arthur", "arthur@lanche.com.br");
+		//Usuario novoUsuario = new Usuario("Arthur", "arthur@lanche.com.br");
+		Usuario novoUsuario = new Usuario("Leo", "leo@lanche.com.br");
 		
 		em.getTransaction().begin();
 		em.persist(novoUsuario);
 		em.getTransaction().commit();
+		
+		System.out.println("O Id gerado foi: " + novoUsuario.getId());
 		
 		em.close();
 		emf.close();
