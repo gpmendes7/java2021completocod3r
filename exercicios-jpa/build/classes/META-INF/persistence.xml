@@ -14,7 +14,7 @@
 				value="jdbc:mysql://localhost/curso_java" />
 			<property name="javax.persistence.jdbc.user" value="root" />
 			<property name="javax.persistence.jdbc.password"
-				value="12345678" />
+				value="root" />
 
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.MySQL57Dialect" />
